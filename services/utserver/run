@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec /sbin/setuser baca /app/utserver/utserver --settingspath /config/utserver/
