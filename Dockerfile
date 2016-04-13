@@ -18,4 +18,4 @@ RUN chmod -v +x /etc/service/*/run && chmod -v +x /etc/my_init.d/*.sh && \
     usermod -d /config/utserver baca
 
 EXPOSE 8888 6881
-VOLUME ["/config", "/downloads", "/downloads-complete", "data"]
+VOLUME ["/config", "/downloads", "/downloads-complete", "/data"]
